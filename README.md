@@ -1,4 +1,4 @@
-# Haseeb Ul Hassan — Portfolio
+# Haseeb Ul Hassan - Portfolio
 
 Techy portfolio built with React + Vite + Tailwind CSS.
 
