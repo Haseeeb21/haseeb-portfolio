@@ -2,6 +2,8 @@
 
 Techy portfolio built with React + Vite + Tailwind CSS.
 
+[🔗 View Portfolio](https://haseeb-portfolio.vercel.app)
+
 ## Stack
 
 | Tool | Purpose |
