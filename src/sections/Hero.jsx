@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react'
+import { ArrowDown, Github, Linkedin, Mail, Download } from 'lucide-react'
 
 const roles = [
   'ML Engineer',
@@ -85,6 +85,15 @@ export default function Hero() {
             className="font-mono text-sm px-6 py-3 border border-bg-border text-text-secondary hover:border-accent-cyan hover:text-accent-cyan transition-all duration-200 rounded"
           >
             Get In Touch
+          </a>
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noreferrer"
+            className="font-mono text-sm px-6 py-3 border border-accent-green/40 text-accent-green hover:bg-accent-green hover:text-bg-primary transition-all duration-200 rounded flex items-center gap-2"
+          >
+            <Download size={14} />
+            Resume
           </a>
         </div>
 

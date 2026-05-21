@@ -4,7 +4,7 @@ const projects = [
   {
     icon: TrendingUp,
     title: 'ForecastIQ',
-    description: 'End-to-end ML demand-forecasting and planning pipeline. Replaced ad-hoc manual spreadsheet ordering, saving $100K+/year in labor. Automated daily processing, centralized inputs, and reduced excess inventory — realizing multi-million dollar savings.',
+    description: 'End-to-end ML demand-forecasting and planning pipeline. Replaced ad-hoc manual spreadsheet ordering, saving $100K+/year in labor. Automated daily processing, centralized inputs, and reduced excess inventory - realizing multi-million dollar savings.',
     tags: ['Python', 'ML Pipeline', 'Feature Engineering', 'Automation', 'FastAPI'],
     highlight: '$100K+/yr saved',
     color: 'accent-green',

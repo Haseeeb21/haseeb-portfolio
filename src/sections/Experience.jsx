@@ -9,7 +9,7 @@ const experiences = [
     period: 'Nov 2024 – Present',
     location: 'Islamabad, Pakistan',
     highlights: [
-      'Built ForecastIQ — an end-to-end demand-forecasting pipeline that eliminated manual spreadsheet work, saving $100K+/year in labor and freeing multi-million dollar capital through reduced excess inventory.',
+      'Built ForecastIQ - an end-to-end demand-forecasting pipeline that eliminated manual spreadsheet work, saving $100K+/year in labor and freeing multi-million dollar capital through reduced excess inventory.',
       'Delivered custom AI solutions for Kofile, automating image-based cataloging and data extraction to reduce manual entry and improve throughput.',
       'Led ML initiatives across PromoIQ, automation, and deployment workstreams to improve operational efficiency.',
       'Mentored a team of ML interns: ran daily standups, assigned tasks, and conducted weekly technical demos.',

@@ -17,7 +17,7 @@ export default function Contact() {
         <div className="grid md:grid-cols-2 gap-16 items-start">
           <div>
             <p className="text-text-secondary leading-relaxed mb-8">
-              I'm currently open to new opportunities — whether it's a full-time role, freelance project, or a collaboration on something ambitious. If you think we could build something great together, reach out.
+              I'm currently open to new opportunities - whether it's a full-time role, freelance project, or a collaboration on something ambitious. If you think we could build something great together, reach out.
             </p>
 
             <div className="space-y-4">
@@ -50,7 +50,7 @@ export default function Contact() {
               Let's Work Together
             </h3>
             <p className="text-text-secondary text-sm mb-6 leading-relaxed">
-              Whether you have a project in mind or just want to talk AI — my inbox is always open.
+              Whether you have a project in mind or just want to talk AI - my inbox is always open.
             </p>
             <a
               href="mailto:haseeb.zahid021@gmail.com"

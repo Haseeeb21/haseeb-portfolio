@@ -22,7 +22,7 @@ export default function About() {
                 I'm a Machine Learning Engineer at <span className="text-accent-cyan">VisionX</span>, building and deploying AI products for enterprise clients across Computer Vision, NLP, and Generative AI.
               </p>
               <p>
-                I graduated as a <span className="text-accent-green font-semibold">Presidential Gold Medalist</span> in Computer Science from the Institute of Space Technology with a 3.77 GPA — then jumped straight into building real-world AI systems that move the needle.
+                I graduated as a <span className="text-accent-green font-semibold">Presidential Gold Medalist</span> in Computer Science from the Institute of Space Technology with a 3.77 GPA - then jumped straight into building real-world AI systems that move the needle.
               </p>
               <p>
                 From fine-tuning OCR models to architecting end-to-end ML pipelines that eliminate manual work and save six figures annually, I care about AI that actually ships and delivers value.
