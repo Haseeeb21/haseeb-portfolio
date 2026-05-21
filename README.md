@@ -2,7 +2,7 @@
 
 Techy portfolio built with React + Vite + Tailwind CSS.
 
-[🔗 View Portfolio](https://haseeeb-portfolio.vercel.app)
+<a href="https://haseeeb-portfolio.vercel.app" target="_blank" rel="noopener noreferrer">🔗 View Portfolio</a>
 
 ## Stack
 
