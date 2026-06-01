@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { ArrowDown, Github, Linkedin, Mail, Download } from 'lucide-react'
+import { ArrowDown, Github, Linkedin, Mail, Download, MapPin } from 'lucide-react'
 
 const roles = [
   'ML Engineer',
@@ -109,7 +109,12 @@ export default function Hero() {
             <Mail size={20} />
           </a>
           <div className="w-px h-4 bg-bg-border ml-2" />
-          <span className="font-mono text-xs text-text-muted">haseeb.zahid021@gmail.com</span>
+          <span className="font-mono text-xs text-text-secondary">haseeb.zahid021@gmail.com</span>
+          <div className="w-px h-4 bg-bg-border ml-2" />
+          <div className="flex items-center gap-2 text-text-secondary text-sm">
+            <MapPin size={14} className="text-accent-cyan" />
+            Riyadh, Saudi Arabia
+          </div>
         </div>
 
         {/* Scroll indicator */}
