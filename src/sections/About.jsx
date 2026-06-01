@@ -35,7 +35,7 @@ export default function About() {
             <div className="flex flex-wrap gap-3 mt-8">
               <div className="flex items-center gap-2 text-text-secondary text-sm">
                 <MapPin size={14} className="text-accent-cyan" />
-                Jeddah, Saudi Arabia
+                Riyadh, Saudi Arabia
               </div>
               <div className="flex items-center gap-2 text-text-secondary text-sm">
                 <GraduationCap size={14} className="text-accent-cyan" />
