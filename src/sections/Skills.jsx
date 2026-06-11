@@ -1,11 +1,11 @@
 const skillGroups = [
   {
     category: 'Languages',
-    items: ['Python', 'C++', 'SQL'],
+    items: ['Python', 'C++', 'Kotlin', 'SQL'],
   },
   {
     category: 'ML / Deep Learning',
-    items: ['PyTorch', 'TensorFlow', 'Keras', 'Scikit-Learn', 'Transformers', 'Ultralytics', 'YOLO'],
+    items: ['PyTorch', 'TensorFlow', 'Keras', 'Scikit-Learn', 'Transformers (Hugging Face)', 'Ultralytics', 'YOLO'],
   },
   {
     category: 'Computer Vision',

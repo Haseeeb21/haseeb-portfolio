@@ -2,7 +2,7 @@ import { Award, MapPin, GraduationCap } from 'lucide-react'
 
 const stats = [
   { label: 'Years of Experience', value: 'Nearly 2' },
-  { label: 'Annual Savings Delivered', value: '$100K+' },
+  { label: 'Total Savings Delivered', value: '$400K+' },
   { label: 'ML Models Deployed', value: '10+' },
   { label: 'CGPA', value: '3.77' },
 ]
@@ -19,7 +19,7 @@ export default function About() {
 
             <div className="space-y-4 text-text-secondary leading-relaxed">
               <p>
-                I'm a Machine Learning Engineer at <span className="text-accent-cyan">VisionX</span>, building and deploying AI products for enterprise clients across Computer Vision, NLP, and Generative AI.
+                I'm an AI / Machine Learning Engineer at <span className="text-accent-cyan">VisionX</span>, building and deploying AI products for enterprise clients across Computer Vision, NLP, and Generative AI.
               </p>
               <p>
                 I graduated as a <span className="text-accent-green font-semibold">Presidential Gold Medalist</span> in Computer Science from the Institute of Space Technology with a 3.77 GPA - then jumped straight into building real-world AI systems that move the needle.
@@ -76,9 +76,9 @@ export default function About() {
               </div>
               <div className="space-y-1.5 text-text-secondary">
                 <p><span className="text-accent-green">$</span> <span className="text-text-primary">whoami</span></p>
-                <p className="text-text-muted pl-4">ML Engineer @ VisionX</p>
+                <p className="text-text-muted pl-4">AI / ML Engineer @ VisionX</p>
                 <p><span className="text-accent-green">$</span> <span className="text-text-primary">cat skills.txt</span></p>
-                <p className="text-text-muted pl-4">CV | NLP | GenAI | MLOps</p>
+                <p className="text-text-muted pl-4">AI | ML | CV | NLP | GenAI | LLMs | MLOps</p>
                 <p><span className="text-accent-green">$</span> <span className="text-text-primary">echo $STATUS</span></p>
                 <p className="text-accent-cyan pl-4">Open to new opportunities<span className="animate-pulse">█</span></p>
               </div>

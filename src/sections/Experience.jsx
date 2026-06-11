@@ -4,19 +4,19 @@ import { ChevronRight, ExternalLink } from 'lucide-react'
 const experiences = [
   {
     company: 'VisionX',
-    tabLabel: 'Jr. ML Engineer',
-    role: 'Junior Machine Learning Engineer',
+    tabLabel: 'Jr. AI / ML Engineer',
+    role: 'Junior AI / Machine Learning Engineer',
     period: 'Nov 2024 – Present',
     location: 'Islamabad, Pakistan',
     highlights: [
-      'Built ForecastIQ - an end-to-end demand-forecasting pipeline that eliminated manual spreadsheet work, saving $100K+/year in labor and freeing multi-million dollar capital through reduced excess inventory.',
+      'Built ForecastIQ - an end-to-end demand-forecasting pipeline that eliminated manual spreadsheet work, saving $200K+/year in labor and freeing multi-million dollar capital through reduced excess inventory.',
       'Delivered custom AI solutions for Kofile, automating image-based cataloging and data extraction to reduce manual entry and improve throughput.',
       'Led ML initiatives across PromoIQ, automation, and deployment workstreams to improve operational efficiency.',
       'Mentored a team of ML interns: ran daily standups, assigned tasks, and conducted weekly technical demos.',
       'Implemented generative AI workflows for client and internal use cases, expanding product capabilities.',
       'Managed and updated APIs for ongoing AI services, ensuring seamless integration and functionality.',
     ],
-    tags: ['Python', 'PyTorch', 'FastAPI', 'Docker', 'AWS', 'LangChain', 'n8n'],
+    tags: ['Python', 'Machine Learning', 'Computer Vision', 'Generative AI', 'LLMs / VLMs', 'NLP', 'FastAPI', 'TensorFlow', 'PyTorch', 'Transformers (Hugging Face)', 'Docker', 'AWS', 'LangChain', 'n8n'],
   },
   {
     company: 'VisionX',
@@ -30,7 +30,7 @@ const experiences = [
       'Trained and compared detection and segmentation models, applied augmentation techniques to improve generalization.',
       'Developed Android-based mobile applications integrating computer vision models for detection and segmentation workflows.',
     ],
-    tags: ['PaddleOCR', 'LayoutLMv3', 'YOLO', 'Android', 'Data Augmentation'],
+    tags: ['PaddleOCR', 'LayoutLMv3', 'Computer Vision', 'YOLO', 'Android', 'Data Augmentation', 'Label Studio'],
   },
 ]
 
