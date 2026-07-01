@@ -2,10 +2,14 @@ import { useEffect, useState } from 'react'
 import { ArrowDown, Github, Linkedin, Mail, Download, MapPin } from 'lucide-react'
 
 const roles = [
-  'ML Engineer',
-  'CV Specialist',
-  'NLP Builder',
-  'GenAI Developer',
+  'Machine Learning',
+  'Computer Vision',
+  'NLP',
+  'Gen AI',
+  // 'ML Engineer',
+  // 'CV Specialist',
+  // 'NLP Builder',
+  // 'GenAI Developer',
 ]
 
 export default function Hero() {
