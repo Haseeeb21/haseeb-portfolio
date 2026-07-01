@@ -87,7 +87,7 @@ export default function Hero() {
             Get In Touch
           </a>
           <a
-            href="/resume.pdf"
+            href="/Haseeb_Ul_Hassan_AI_ML.pdf"
             target="_blank"
             rel="noreferrer"
             className="font-mono text-sm px-6 py-3 border border-accent-green/40 text-accent-green hover:bg-accent-green hover:text-bg-primary transition-all duration-200 rounded flex items-center gap-2"
