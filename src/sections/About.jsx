@@ -1,7 +1,7 @@
 import { Award, MapPin, GraduationCap } from 'lucide-react'
 
 const stats = [
-  { label: 'Years of Experience', value: 'Nearly 2' },
+  { label: 'Years of Experience', value: '2' },
   { label: 'Total Savings Delivered', value: '$400K+' },
   { label: 'ML Models Deployed', value: '10+' },
   { label: 'CGPA', value: '3.77' },
