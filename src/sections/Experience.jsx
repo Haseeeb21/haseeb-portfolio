@@ -5,9 +5,9 @@ const experiences = [
   {
     company: 'VisionX',
     tabLabel: 'Jr. AI / ML Engineer',
-    role: 'Junior AI / Machine Learning Engineer',
+    role: 'Junior AI / ML Engineer',
     period: 'Nov 2024 – Present',
-    location: 'Islamabad, Pakistan',
+    location: 'New York, USA (Remote)',
     highlights: [
       'Built ForecastIQ - an end-to-end demand-forecasting pipeline that eliminated manual spreadsheet work, saving $200K+/year in labor and freeing multi-million dollar capital through reduced excess inventory.',
       'Delivered custom AI solutions for Kofile, automating image-based cataloging and data extraction to reduce manual entry and improve throughput.',
