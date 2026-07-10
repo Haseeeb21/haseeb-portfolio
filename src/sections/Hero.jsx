@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { ArrowDown, Github, Linkedin, Mail, Download, MapPin } from 'lucide-react'
+import { ArrowDown, Github, Linkedin, Mail, Download, MapPin, MessageCircle } from 'lucide-react'
 
 const roles = [
   'Machine Learning',
@@ -89,6 +89,15 @@ export default function Hero() {
             className="font-mono text-sm px-6 py-3 border border-bg-border text-text-secondary hover:border-accent-cyan hover:text-accent-cyan transition-all duration-200 rounded"
           >
             Get In Touch
+          </a>
+          <a
+            href="https://wa.me/966573572621"
+            target="_blank"
+            rel="noreferrer"
+            className="font-mono text-sm px-6 py-3 border border-accent-green/40 text-accent-green hover:bg-accent-green hover:text-bg-primary transition-all duration-200 rounded flex items-center gap-2"
+          >
+            <MessageCircle size={14} />
+            WhatsApp Me
           </a>
           <a
             href="/Haseeb_Ul_Hassan_AI_ML.pdf"
