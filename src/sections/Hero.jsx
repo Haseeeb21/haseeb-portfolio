@@ -12,6 +12,16 @@ const roles = [
   // 'GenAI Developer',
 ]
 
+const nameColorVariants = {
+  cyan: 'text-accent-cyan drop-shadow-[0_0_18px_rgba(0,212,255,0.16)]',
+  emerald: 'text-accent-green drop-shadow-[0_0_18px_rgba(0,255,156,0.14)]',
+  blue: 'text-sky-400 drop-shadow-[0_0_18px_rgba(56,189,248,0.14)]',
+  lavender: 'text-violet-400 drop-shadow-[0_0_18px_rgba(167,139,250,0.12)]',
+  white: 'text-white drop-shadow-[0_0_14px_rgba(255,255,255,0.08)]',
+}
+
+const nameColorClass = nameColorVariants.emerald
+
 export default function Hero() {
   const [roleIndex, setRoleIndex] = useState(0)
   const [displayed, setDisplayed] = useState('')
@@ -55,7 +65,7 @@ export default function Hero() {
         </p>
 
         <h1
-          className="font-display text-5xl md:text-7xl font-bold text-text-primary mb-2 glitch-text"
+          className={`font-display text-5xl md:text-7xl font-bold mb-2 glitch-text tracking-tight ${nameColorClass}`}
           data-text="Haseeb Ul Hassan."
         >
           Haseeb Ul Hassan.
