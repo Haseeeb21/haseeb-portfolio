@@ -1,27 +1,31 @@
 const skillGroups = [
   {
-    category: 'Languages',
-    items: ['Python', 'C++', 'Kotlin', 'SQL'],
+    category: 'Programming Languages',
+    items: ['Python', 'C++', 'SQL', 'Kotlin'],
   },
   {
-    category: 'ML / Deep Learning',
-    items: ['PyTorch', 'TensorFlow', 'Keras', 'Scikit-Learn', 'Transformers (Hugging Face)', 'Ultralytics', 'YOLO'],
+    category: 'Machine Learning & Deep Learning',
+    items: ['PyTorch', 'TensorFlow', 'Keras', 'Scikit-Learn', 'XGBoost', 'Transformers', 'Ultralytics YOLO'],
   },
   {
-    category: 'Computer Vision',
-    items: ['OpenCV', 'PaddleOCR', 'LayoutLMv3', 'YOLO OBB', 'Roboflow', 'Object Detection', 'Segmentation'],
+    category: 'Computer Vision & OCR',
+    items: ['OpenCV', 'YOLO OBB', 'Object Detection', 'Segmentation', 'Tesseract', 'EasyOCR', 'PaddleOCR', 'Google Cloud Vision', 'Roboflow'],
   },
   {
-    category: 'GenAI & NLP',
-    items: ['LangChain', 'LLMs', 'RAG', 'Fine-tuning', 'Prompt Engineering', 'NER'],
+    category: 'Data Science & Visualization',
+    items: ['Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Plotly', 'Jupyter', 'Data Augmentation', 'Feature Engineering'],
   },
   {
-    category: 'Data & MLOps',
-    items: ['Pandas', 'NumPy', 'Weights & Biases', 'n8n', 'Data Augmentation', 'Feature Engineering'],
+    category: 'Generative AI & NLP',
+    items: ['OpenAI API', 'OpenAI Agents', 'Google Gemini', 'LangChain', 'RAG Pipelines', 'ChromaDB', 'Pinecone', 'Ollama', 'Hugging Face Transformers', 'Prompt Engineering', 'NER', 'LLMs'],
   },
   {
-    category: 'Cloud, Backend & Tools',
-    items: ['AWS', 'FastAPI', 'Docker', 'Git', 'Linux', 'Android'],
+    category: 'MLOps, Deployment & Tools',
+    items: ['FastAPI', 'Docker', 'Streamlit', 'Weights & Biases', 'MLflow', 'Git', 'GitHub Copilot', 'n8n'],
+  },
+  {
+    category: 'Cloud, Databases & Analytics',
+    items: ['AWS', 'GCP', 'PostgreSQL', 'SQL Server', 'Power BI', 'Linux'],
   },
 ]
 
