@@ -26,6 +26,14 @@ const projects = [
     color: 'accent-purple',
   },
   {
+    icon: Bot,
+    title: 'AI & Computer Vision POCs',
+    description: 'Built multiple proof-of-concepts for internal use cases and fast client demos across AI and Computer Vision problems. These efforts focused on turning business needs into working prototypes quickly, covering vision-driven automation, intelligent analysis, and tailored AI workflows.',
+    tags: ['AI POCs', 'Computer Vision', 'Client Demos', 'Rapid Prototyping', 'Applied ML'],
+    highlight: 'Multiple POCs',
+    color: 'accent-purple',
+  },
+  {
     icon: Brain,
     title: 'Brain Tumor Classification',
     description: 'Custom CNN architecture for brain tumor classification in healthcare. Dataset preprocessing, augmentation, and hyperparameter tuning. Compared proposed CNN against other deep learning and classical ML models to validate performance improvements.',
@@ -36,9 +44,9 @@ const projects = [
 ]
 
 const colorMap = {
-  'accent-green': { border: 'border-accent-green/30', text: 'text-accent-green', bg: 'bg-accent-green/10', badge: 'text-accent-green' },
-  'accent-cyan': { border: 'border-accent-cyan/30', text: 'text-accent-cyan', bg: 'bg-accent-cyan/10', badge: 'text-accent-cyan' },
-  'accent-purple': { border: 'border-accent-purple/30', text: 'text-accent-purple', bg: 'bg-accent-purple/10', badge: 'text-accent-purple' },
+  'accent-green': { border: 'border-accent-green/30', text: 'text-accent-green', bg: 'bg-accent-green/10', badge: 'text-accent-green', tag: 'border-accent-green/30 text-accent-green bg-bg-secondary hover:border-accent-green hover:text-accent-green hover:bg-accent-green/10' },
+  'accent-cyan': { border: 'border-accent-cyan/30', text: 'text-accent-cyan', bg: 'bg-accent-cyan/10', badge: 'text-accent-cyan', tag: 'border-accent-cyan/30 text-accent-cyan bg-bg-secondary hover:border-accent-cyan hover:text-accent-cyan hover:bg-accent-cyan/10' },
+  'accent-purple': { border: 'border-accent-purple/30', text: 'text-accent-purple', bg: 'bg-accent-purple/10', badge: 'text-accent-purple', tag: 'border-accent-purple/30 text-accent-purple bg-bg-secondary hover:border-accent-purple hover:text-accent-purple hover:bg-accent-purple/10' },
 }
 
 export default function Projects() {
@@ -85,7 +93,7 @@ export default function Projects() {
 
                 <div className="flex flex-wrap gap-2">
                   {project.tags.map((tag) => (
-                    <span key={tag} className="font-mono text-xs text-text-muted px-2 py-0.5 rounded bg-bg-secondary border border-bg-border">
+                    <span key={tag} className={`font-mono text-xs px-2 py-0.5 rounded border transition-all duration-200 ${colors.tag}`}>
                       {tag}
                     </span>
                   ))}
@@ -93,6 +101,27 @@ export default function Projects() {
               </div>
             )
           })}
+        </div>
+
+        <div className="mt-16">
+          <p className="font-mono text-accent-cyan text-sm mb-3 tracking-widest">research work</p>
+          <h3 className="section-heading mb-4">Research Paper & Publications</h3>
+          <div className="bg-bg-card border border-accent-cyan/30 rounded-xl p-6">
+            <h4 className="font-display text-xl font-semibold text-text-primary mb-3">Brain Tumor Classification using a Proposed CNN Architecture</h4>
+            <p className="text-text-secondary text-sm leading-relaxed mb-4">
+              A research paper has been submitted and is currently under review. The work proposes a custom CNN architecture for brain tumor classification and focuses on designing a model that performs well on medical imaging data through careful preprocessing, augmentation, and architectural tuning.
+            </p>
+            <p className="text-text-secondary text-sm leading-relaxed mb-4">
+              The study highlights the proposed CNN&apos;s design, compares it with baseline deep learning and classical machine learning approaches, and discusses the improvements observed in classification performance for the healthcare AI task.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              <span className="font-mono text-xs px-2 py-0.5 rounded border border-accent-cyan/30 text-accent-cyan bg-bg-secondary transition-all duration-200 hover:border-accent-cyan hover:text-accent-cyan hover:bg-accent-cyan/10">CNN</span>
+              <span className="font-mono text-xs px-2 py-0.5 rounded border border-accent-cyan/30 text-accent-cyan bg-bg-secondary transition-all duration-200 hover:border-accent-cyan hover:text-accent-cyan hover:bg-accent-cyan/10">Medical AI</span>
+              <span className="font-mono text-xs px-2 py-0.5 rounded border border-accent-cyan/30 text-accent-cyan bg-bg-secondary transition-all duration-200 hover:border-accent-cyan hover:text-accent-cyan hover:bg-accent-cyan/10">Brain Tumor</span>
+              <span className="font-mono text-xs px-2 py-0.5 rounded border border-accent-cyan/30 text-accent-cyan bg-bg-secondary transition-all duration-200 hover:border-accent-cyan hover:text-accent-cyan hover:bg-accent-cyan/10">Research</span>
+              <span className="font-mono text-xs px-2 py-0.5 rounded border border-accent-cyan/30 text-accent-cyan bg-bg-secondary transition-all duration-200 hover:border-accent-cyan hover:text-accent-cyan hover:bg-accent-cyan/10">Under Review</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
