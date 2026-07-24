@@ -12,6 +12,11 @@ export default {
         display: ['"Syne"', 'sans-serif'],
       },
       colors: {
+        'accent-green': '#00FF9C',
+        'accent-cyan': '#00D4FF',
+        'accent-purple': '#7C3AED',
+        'accent-orange': '#F2A623',
+        'accent-red': '#E24B4A',
         bg: {
           primary: '#050A0F',
           secondary: '#0A1118',
@@ -22,6 +27,11 @@ export default {
           cyan: '#00D4FF',
           green: '#00FF9C',
           purple: '#7C3AED',
+          orange: '#F2A623', 
+          red: '#E24B4A',
+          pink: '#F472B6',
+          lime: '#A3E635',
+          sky: '#38BDF8',
         },
         text: {
           primary: '#E2EAF4',

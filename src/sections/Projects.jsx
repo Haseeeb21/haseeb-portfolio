@@ -1,4 +1,4 @@
-import { ExternalLink, Github, Brain, TrendingUp, Bot, BookOpen } from 'lucide-react'
+import { ExternalLink, Github, Brain, TrendingUp, Bot, BookOpen, Gauge, Activity, Wrench } from 'lucide-react'
 
 const projects = [
   {
@@ -23,7 +23,7 @@ const projects = [
     description: 'Institutional-Grade AI trading assistant with real-time market data integration (Binance, Alpha Vantage, GoldAPI) and configurable web search for live market research. Includes a full Telegram bot with webhook handling, session mapping, and multimedia support.',
     tags: ['LLM', 'Binance API', 'Telegram Bot', 'Webhooks', 'Real-time Data'],
     highlight: 'Live market intel',
-    color: 'accent-purple',
+    color: 'accent-lime',
   },
   {
     icon: Bot,
@@ -41,12 +41,26 @@ const projects = [
     highlight: 'Healthcare AI',
     color: 'accent-cyan',
   },
+  {
+    icon: Wrench, 
+    title: 'Predictive Maintenance for Industrial Machines',
+    description: 'End-to-end MLOps pipeline predicting machine failure from live sensor data (temperature, torque, rotational speed, tool wear). Handled severe class imbalance with class-weighting and SMOTE, tracked experiments and registered models with MLflow, served predictions via a FastAPI + Streamlit demo, and monitored data drift in production with Evidently.',
+    tags: ['MLflow', 'FastAPI', 'Streamlit', 'XGBoost', 'Scikit-learn', 'Evidently', 'MLOps'],
+    highlight: 'MLOps / Industrial AI',
+    color: 'accent-orange',
+    github: 'https://github.com/Haseeeb21/predictive-maintenance-AI4I',
+  },
 ]
 
 const colorMap = {
-  'accent-green': { border: 'border-accent-green/30', text: 'text-accent-green', bg: 'bg-accent-green/10', badge: 'text-accent-green', tag: 'border-accent-green/30 text-accent-green bg-bg-secondary hover:border-accent-green hover:text-accent-green hover:bg-accent-green/10' },
-  'accent-cyan': { border: 'border-accent-cyan/30', text: 'text-accent-cyan', bg: 'bg-accent-cyan/10', badge: 'text-accent-cyan', tag: 'border-accent-cyan/30 text-accent-cyan bg-bg-secondary hover:border-accent-cyan hover:text-accent-cyan hover:bg-accent-cyan/10' },
-  'accent-purple': { border: 'border-accent-purple/30', text: 'text-accent-purple', bg: 'bg-accent-purple/10', badge: 'text-accent-purple', tag: 'border-accent-purple/30 text-accent-purple bg-bg-secondary hover:border-accent-purple hover:text-accent-purple hover:bg-accent-purple/10' },
+  'accent-green': { border: 'border-accent-green/30', text: 'text-accent-green', bg: 'bg-accent-green/10', badge: 'text-accent-green', tag: 'border-accent-green/30 text-accent-green bg-bg-secondary hover:border-accent-green hover:text-accent-green hover:bg-accent-green/10', iconColor: '#00FF9C', borderColor: 'rgba(0, 255, 156, 0.3)', bgColor: 'rgba(0, 255, 156, 0.1)' },
+  'accent-cyan': { border: 'border-accent-cyan/30', text: 'text-accent-cyan', bg: 'bg-accent-cyan/10', badge: 'text-accent-cyan', tag: 'border-accent-cyan/30 text-accent-cyan bg-bg-secondary hover:border-accent-cyan hover:text-accent-cyan hover:bg-accent-cyan/10', iconColor: '#00D4FF', borderColor: 'rgba(0, 212, 255, 0.3)', bgColor: 'rgba(0, 212, 255, 0.1)' },
+  'accent-purple': { border: 'border-accent-purple/30', text: 'text-accent-purple', bg: 'bg-accent-purple/10', badge: 'text-accent-purple', tag: 'border-accent-purple/30 text-accent-purple bg-bg-secondary hover:border-accent-purple hover:text-accent-purple hover:bg-accent-purple/10', iconColor: '#7C3AED', borderColor: 'rgba(124, 58, 237, 0.3)', bgColor: 'rgba(124, 58, 237, 0.1)' },
+  'accent-orange': { border: 'border-accent-orange/30', text: 'text-accent-orange', bg: 'bg-accent-orange/10', badge: 'text-accent-orange', tag: 'border-accent-orange/30 text-accent-orange bg-bg-secondary hover:border-accent-orange hover:text-accent-orange hover:bg-accent-orange/10', iconColor: '#F2A623', borderColor: 'rgba(242, 166, 35, 0.3)', bgColor: 'rgba(242, 166, 35, 0.1)' },
+  'accent-red': { border: 'border-accent-red/30', text: 'text-accent-red', bg: 'bg-accent-red/10', badge: 'text-accent-red', tag: 'border-accent-red/30 text-accent-red bg-bg-secondary hover:border-accent-red hover:text-accent-red hover:bg-accent-red/10', iconColor: '#E24B4A', borderColor: 'rgba(226, 75, 74, 0.3)', bgColor: 'rgba(226, 75, 74, 0.1)' },
+  'accent-pink': { border: 'border-pink-400/30', text: 'text-pink-400', bg: 'bg-pink-400/10', badge: 'text-pink-400', tag: 'border-pink-400/30 text-pink-400 bg-bg-secondary hover:border-pink-400 hover:text-pink-400 hover:bg-pink-400/10', iconColor: '#F472B6', borderColor: 'rgba(244, 114, 182, 0.3)', bgColor: 'rgba(244, 114, 182, 0.1)' },
+  'accent-lime': { border: 'border-lime-400/30', text: 'text-lime-400', bg: 'bg-lime-400/10', badge: 'text-lime-400', tag: 'border-lime-400/30 text-lime-400 bg-bg-secondary hover:border-lime-400 hover:text-lime-400 hover:bg-lime-400/10', iconColor: '#A3E635', borderColor: 'rgba(163, 230, 53, 0.3)', bgColor: 'rgba(163, 230, 53, 0.1)' },
+  'accent-sky': { border: 'border-sky-400/30', text: 'text-sky-400', bg: 'bg-sky-400/10', badge: 'text-sky-400', tag: 'border-sky-400/30 text-sky-400 bg-bg-secondary hover:border-sky-400 hover:text-sky-400 hover:bg-sky-400/10', iconColor: '#38BDF8', borderColor: 'rgba(56, 189, 248, 0.3)', bgColor: 'rgba(56, 189, 248, 0.1)' },
 }
 
 export default function Projects() {
@@ -60,14 +74,14 @@ export default function Projects() {
         </p>
 
         <div className="grid md:grid-cols-2 gap-6">
-          {projects.map((project, i) => {
+          {projects.map((project) => {
             const colors = colorMap[project.color]
             const Icon = project.icon
-            return (
+
+            const CardContent = (
               <div
-                key={i}
-                className={`bg-bg-card border ${colors.border} rounded-xl p-6 hover:bg-bg-secondary transition-all duration-300 group hover:-translate-y-1 hover:shadow-xl`}
-                style={{ boxShadow: 'none' }}
+                className={`bg-bg-card border ${colors.border} rounded-xl p-6 hover:bg-bg-secondary transition-all duration-300 group hover:-translate-y-1 hover:shadow-xl h-full`}
+                style={{ boxShadow: 'none', borderColor: colors.borderColor }}
                 onMouseEnter={e => {
                   e.currentTarget.style.boxShadow = `0 20px 40px rgba(0,0,0,0.3)`
                 }}
@@ -76,10 +90,10 @@ export default function Projects() {
                 }}
               >
                 <div className="flex items-start justify-between mb-4">
-                  <div className={`p-2 rounded-lg ${colors.bg}`}>
-                    <Icon size={20} className={colors.text} />
+                  <div className={`p-2 rounded-lg ${colors.bg}`} style={{ backgroundColor: colors.bgColor }}>
+                    <Icon size={20} className={colors.text} style={{ color: colors.iconColor }} />
                   </div>
-                  <span className={`font-mono text-xs px-2 py-1 rounded border ${colors.border} ${colors.badge} bg-transparent`}>
+                  <span className={`font-mono text-xs px-2 py-1 rounded border ${colors.border} ${colors.badge} bg-transparent`} style={{ color: colors.iconColor, borderColor: colors.borderColor }}>
                     {project.highlight}
                   </span>
                 </div>
@@ -93,12 +107,44 @@ export default function Projects() {
 
                 <div className="flex flex-wrap gap-2">
                   {project.tags.map((tag) => (
-                    <span key={tag} className={`font-mono text-xs px-2 py-0.5 rounded border transition-all duration-200 ${colors.tag}`}>
+                    <span
+                      key={tag}
+                      className="font-mono text-xs px-2 py-0.5 rounded border transition-all duration-200"
+                      style={{
+                        color: colors.iconColor,
+                        borderColor: colors.borderColor,
+                        backgroundColor: colors.bgColor,
+                      }}
+                      onMouseEnter={e => {
+                        e.currentTarget.style.color = colors.iconColor
+                        e.currentTarget.style.borderColor = colors.iconColor
+                        e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.08)'
+                      }}
+                      onMouseLeave={e => {
+                        e.currentTarget.style.color = colors.iconColor
+                        e.currentTarget.style.borderColor = colors.borderColor
+                        e.currentTarget.style.backgroundColor = colors.bgColor
+                      }}
+                    >
                       {tag}
                     </span>
                   ))}
                 </div>
               </div>
+            )
+
+            return project.github ? (
+              <a
+                key={project.title}
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block h-full"
+              >
+                {CardContent}
+              </a>
+            ) : (
+              <div key={project.title} className="h-full">{CardContent}</div>
             )
           })}
         </div>
@@ -118,6 +164,7 @@ export default function Projects() {
               <span className="font-mono text-xs px-2 py-0.5 rounded border border-accent-cyan/30 text-accent-cyan bg-bg-secondary transition-all duration-200 hover:border-accent-cyan hover:text-accent-cyan hover:bg-accent-cyan/10">CNN</span>
               <span className="font-mono text-xs px-2 py-0.5 rounded border border-accent-cyan/30 text-accent-cyan bg-bg-secondary transition-all duration-200 hover:border-accent-cyan hover:text-accent-cyan hover:bg-accent-cyan/10">Medical AI</span>
               <span className="font-mono text-xs px-2 py-0.5 rounded border border-accent-cyan/30 text-accent-cyan bg-bg-secondary transition-all duration-200 hover:border-accent-cyan hover:text-accent-cyan hover:bg-accent-cyan/10">Brain Tumor</span>
+              <span className="font-mono text-xs px-2 py-0.5 rounded border border-accent-cyan/30 text-accent-cyan bg-bg-secondary transition-all duration-200 hover:border-accent-cyan hover:text-accent-cyan hover:bg-accent-cyan/10">ML Classification</span>
               <span className="font-mono text-xs px-2 py-0.5 rounded border border-accent-cyan/30 text-accent-cyan bg-bg-secondary transition-all duration-200 hover:border-accent-cyan hover:text-accent-cyan hover:bg-accent-cyan/10">Research</span>
               <span className="font-mono text-xs px-2 py-0.5 rounded border border-accent-cyan/30 text-accent-cyan bg-bg-secondary transition-all duration-200 hover:border-accent-cyan hover:text-accent-cyan hover:bg-accent-cyan/10">Under Review</span>
             </div>

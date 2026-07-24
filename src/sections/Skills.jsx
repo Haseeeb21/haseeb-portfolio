@@ -21,7 +21,7 @@ const skillGroups = [
   },
   {
     category: 'MLOps, Deployment & Tools',
-    items: ['FastAPI', 'Docker', 'Streamlit', 'Weights & Biases', 'MLflow', 'Git', 'GitHub Copilot', 'n8n'],
+    items: ['FastAPI', 'vLLM', 'Docker', 'Streamlit', 'Weights & Biases', 'MLflow', 'Git', 'GitHub Copilot', 'n8n'],
   },
   {
     category: 'Cloud, Databases & Analytics',
