@@ -4,8 +4,8 @@ import { ChevronRight, ExternalLink } from 'lucide-react'
 const experiences = [
   {
     company: 'VisionX',
-    tabLabel: 'Jr. AI / ML Engineer',
-    role: 'Junior AI / ML Engineer',
+    tabLabel: 'AI / ML Engineer',
+    role: 'AI / ML Engineer',
     period: 'Nov 2024 – Present',
     location: 'New York, USA (Remote)',
     highlights: [
