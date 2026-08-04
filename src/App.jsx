@@ -7,6 +7,7 @@ import Projects from './sections/Projects'
 import Skills from './sections/Skills'
 import Contact from './sections/Contact'
 import Footer from './components/Footer'
+import { Analytics } from '@vercel/analytics/react'
 
 function App() {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 })
@@ -49,6 +50,7 @@ function App() {
         </main>
         <Footer />
       </div>
+      <Analytics />
     </div>
   )
 }
