@@ -6,7 +6,7 @@ const experiences = [
     company: 'VisionX',
     tabLabel: 'AI / ML Engineer',
     role: 'AI / ML Engineer',
-    period: 'Nov 2024 – Present',
+    period: 'Nov 2024 – Aug 2026',
     location: 'New York, USA (Remote)',
     highlights: [
       'Built ForecastIQ - an end-to-end demand-forecasting pipeline that eliminated manual spreadsheet work, saving $200K+/year in labor and freeing multi-million dollar capital through reduced excess inventory.',
