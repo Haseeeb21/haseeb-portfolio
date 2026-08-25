@@ -42,6 +42,90 @@
     @apply text-xs font-mono px-2 py-1 rounded border border-bg-border bg-bg-card text-accent-cyan;
   }
 
+  /* Company name style used across the experience section. Change this single class to affect all company labels. */
+  .company-name {
+    @apply font-mono text-sm md:text-base tracking-[0.04em] text-accent-cyan/90 font-medium;
+  }
+
+  .experience-timeline {
+    @apply relative mt-4 space-y-4;
+  }
+
+  .experience-timeline::before {
+    content: '';
+    position: absolute;
+    left: 12px;
+    top: 6px;
+    bottom: 6px;
+    width: 1px;
+    background: linear-gradient(180deg, rgba(0, 212, 255, 0.03), rgba(0, 212, 255, 0.22), rgba(0, 212, 255, 0.03));
+  }
+
+  @media (min-width: 768px) {
+    .experience-timeline::before {
+      left: 24px;
+    }
+  }
+
+  .experience-card {
+    @apply relative grid gap-2 rounded-[16px] border border-bg-border/80 bg-bg-card/70 p-2 shadow-[0_8px_30px_rgba(0,0,0,0.16)] backdrop-blur-sm md:grid-cols-[56px_1fr] md:gap-3 md:p-3;
+    background-image: linear-gradient(135deg, rgba(0, 212, 255, 0.02), rgba(13, 21, 32, 0.12));
+  }
+
+  .experience-card--featured {
+    border-color: rgba(0, 212, 255, 0.22);
+    box-shadow: 0 10px 40px rgba(0, 212, 255, 0.05);
+  }
+
+  .experience-marker {
+    @apply relative flex items-start justify-center pt-1 md:pt-2;
+    z-index: 1;
+  }
+
+  .experience-dot {
+    @apply relative block h-3 w-3 rounded-full border border-accent-cyan/60 bg-accent-cyan/30 shadow-[0_0_0_4px_rgba(0,212,255,0.04)];
+  }
+
+  .experience-card--featured .experience-dot {
+    @apply bg-accent-green/30 border-accent-green/60 shadow-[0_0_0_4px_rgba(0,255,156,0.05)];
+  }
+
+  .experience-content {
+    @apply relative;
+  }
+
+  .experience-meta {
+    @apply mt-2 flex flex-wrap gap-2 text-[10px] font-mono text-text-secondary md:gap-2;
+  }
+
+  .experience-meta span {
+    @apply inline-flex items-center gap-2 rounded-full border border-bg-border bg-bg-card/70 px-2 py-1;
+  }
+
+  .experience-summary {
+    @apply mt-2 max-w-3xl text-[13px] leading-relaxed text-text-secondary md:text-[12px];
+  }
+
+  .experience-list {
+    @apply mt-3 space-y-2;
+  }
+
+  .experience-list li {
+    @apply flex gap-2 text-[13px] leading-relaxed text-text-secondary md:text-[12px];
+  }
+
+  .experience-bullet {
+    @apply mt-1 inline-block h-2 w-2 shrink-0 rounded-full bg-accent-cyan/75 shadow-[0_0_10px_rgba(0,212,255,0.35)];
+  }
+
+  .experience-tags {
+    @apply mt-3 flex flex-wrap gap-2;
+  }
+
+  .card-glow {
+    position: relative;
+  }
+
   .card-glow {
     position: relative;
   }
