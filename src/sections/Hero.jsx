@@ -81,8 +81,8 @@ export default function Hero() {
         </h2>
 
         <p className="max-w-xl text-text-secondary leading-relaxed mb-10 font-sans text-base">
-          AI / ML Engineer at <span className="text-accent-cyan">VisionX</span>, delivering enterprise-grade AI products.
-          Presidential Gold Medalist with hands-on experience in Computer Vision, NLP, and Generative AI.
+          AI / ML Engineer delivering enterprise-grade AI products.
+          Presidential Gold Medalist with hands-on experience in Computer Vision, Machine Learning, and Generative AI.
           Built pipelines that saved clients <span className="text-accent-green font-semibold">$250K+/year</span>.
         </p>
 
