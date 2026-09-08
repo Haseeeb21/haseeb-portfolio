@@ -19,7 +19,7 @@ export default function About() {
 
             <div className="space-y-4 text-text-secondary leading-relaxed">
               <p> 
-                I'm an AI / Machine Learning Engineer, building and deploying AI products for enterprise clients across Computer Vision, Machine Learning, NLP, and Generative AI.
+                I'm an <span className="text-accent-cyan">AI / Machine Learning Engineer</span>, building and deploying AI products for enterprise clients across Computer Vision, Machine Learning, NLP, and Generative AI.
               </p>
               <p>
                 I graduated as a <span className="text-accent-green font-semibold">Presidential Gold Medalist</span> in Computer Science from the Institute of Space Technology with a 3.77 GPA - then jumped straight into building real-world AI systems that move the needle.
